@@ -1,0 +1,10 @@
+body{
+font-family:sans-serif;
+color:white;
+}
+
+#header{
+	background-color:aquamarine;
+	height:75%;
+	width:100%;
+}
