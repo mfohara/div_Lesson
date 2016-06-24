@@ -1,10 +1,78 @@
 body{
 font-family:sans-serif;
-color:white;
 }
 
 #header{
 	background-color:aquamarine;
 	height:75%;
 	width:100%;
+	display:inline-block;
+	z-index:-1;
+}
+
+#info{
+	text-align: center;
+	color:white;
+}
+
+.content_wrapper{
+
+}
+
+#circle_container{
+	margin:auto;
+}
+
+.img_circle{
+	border:solid 1px #999999;
+	border-radius: 100%;
+	height:100px;
+	width:100px;
+
+}
+
+#circle1{
+	float:left;
+	margin:auto;
+}
+
+#pic1{
+	height:100px;
+	width:100px;
+}
+
+#circle2{
+	float:left;
+	overflow:hidden;
+	margin:auto;
+}
+
+#pic2{
+	margin-top: 10px;
+	margin-left:15px;
+	height:70px;
+	width:70px;
+}
+
+
+#circle3{
+	float:left;
+	margin:auto;
+}
+
+#chevron_circle{
+	margin:auto;
+	margin-top:-50px;
+	border:solid 1px #999999;
+	border-radius: 100%;
+	height:80px;
+	width:80px;
+	overflow: hidden;
+}
+
+#arrow{
+height: 70px;
+width: 70px;
+margin-left: 5px;
+margin-top:10px;
 }
